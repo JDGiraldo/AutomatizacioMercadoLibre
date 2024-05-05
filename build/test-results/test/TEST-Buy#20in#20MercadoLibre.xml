@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Buy in MercadoLibre" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-05T22:26:15" hostname="MacBook-Pro-de-Juan.local" time="12.242">
+  <properties/>
+  <testcase name="Buy in Amazon Pc" classname="Buy in MercadoLibre" time="12.242">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://www.mercadolibre.com.co/laptop-gamer-hp-victus-15-fb0103la-ryzen58gb512rtx-3050-color-negro/p/MCO24752226?pdp_filters=category:MCO1652#searchVariation=MCO24752226&amp;amp;position=55&amp;amp;search_layout=stack&amp;amp;type=product&amp;amp;tracking_id=66008c61-ad10-4b6a-a667-5867c0028c76&quot; class=&quot;ui-search-item__group__element ui-search-link__title-card ui-search-link&quot; title=&quot;Laptop Gamer Hp Victus 15-fb0103la Ryzen5,8gb,512,rtx 3050 Color Negro&quot;&gt;...&lt;/a&gt; is not clickable at point (793, 501). Other element would receive the click: &lt;div class=&quot;cookie-consent-banner-opt-out__container&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=124.0.6367.119)&#10;Build info: version: '4.20.0', revision: '866c76ca80'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '21.0.3'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ecdcb501b6d7a569623e6f8269f59813, clickElement {id=f.CADE7A01B000BB5F1B640F23124E8C76.d.B48CC3856A619DB0C2D15F67FB5B2457.e.140}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/wb/5gps1z_d6cj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54224/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on mac (ecdcb501b6d7a569623e6f8269f59813)] -&gt; xpath: //a[@title='Laptop Gamer Hp Victus 15-fb0103la Ryzen5,8gb,512,rtx 3050 Color Negro']]&#10;Session ID: ecdcb501b6d7a569623e6f8269f59813" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://www.mercadolibre.com.co/laptop-gamer-hp-victus-15-fb0103la-ryzen58gb512rtx-3050-color-negro/p/MCO24752226?pdp_filters=category:MCO1652#searchVariation=MCO24752226&amp;amp;position=55&amp;amp;search_layout=stack&amp;amp;type=product&amp;amp;tracking_id=66008c61-ad10-4b6a-a667-5867c0028c76&quot; class=&quot;ui-search-item__group__element ui-search-link__title-card ui-search-link&quot; title=&quot;Laptop Gamer Hp Victus 15-fb0103la Ryzen5,8gb,512,rtx 3050 Color Negro&quot;&gt;...&lt;/a&gt; is not clickable at point (793, 501). Other element would receive the click: &lt;div class=&quot;cookie-consent-banner-opt-out__container&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ecdcb501b6d7a569623e6f8269f59813, clickElement {id=f.CADE7A01B000BB5F1B640F23124E8C76.d.B48CC3856A619DB0C2D15F67FB5B2457.e.140}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/wb/5gps1z_d6cj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54224/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (ecdcb501b6d7a569623e6f8269f59813)] -&gt; xpath: //a[@title='Laptop Gamer Hp Victus 15-fb0103la Ryzen5,8gb,512,rtx 3050 Color Negro']]
+Session ID: ecdcb501b6d7a569623e6f8269f59813
+	at java.base@21.0.3/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.3/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base@21.0.3/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at app//org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at app//pages.BasePage.clickElement(BasePage.java:69)
+	at app//pages.PaginaResultadoBusqueda.clickPc(PaginaResultadoBusqueda.java:12)
+	at app//steps.MercadoLibreSteps.selectPc(MercadoLibreSteps.java:23)
+	at ✽.Select pc(file:///Users/jdgiraldo/Desktop/QA/AmazonCompra/src/test/resources/AmazonNavegacion.feature:9)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+Scenario: Buy in Amazon Pc         ?[90m# src/test/resources/AmazonNavegacion.feature:6?[0m
+  ?[32mGiven ?[0m?[32mI navigate to MercadoLibre?[0m ?[90m# steps.MercadoLibreSteps.iNavigateToFRT()?[0m
+  ?[32mThen ?[0m?[32mWrite to search?[0m             ?[90m# steps.MercadoLibreSteps.writeToSearch()?[0m
+  ?[31mAnd ?[0m?[31mSelect pc?[0m                    ?[90m# steps.MercadoLibreSteps.selectPc()?[0m
+      ?[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.mercadolibre.com.co/laptop-gamer-hp-victus-15-fb0103la-ryzen58gb512rtx-3050-color-negro/p/MCO24752226?pdp_filters=category:MCO1652#searchVariation=MCO24752226&amp;position=55&amp;search_layout=stack&amp;type=product&amp;tracking_id=66008c61-ad10-4b6a-a667-5867c0028c76" class="ui-search-item__group__element ui-search-link__title-card ui-search-link" title="Laptop Gamer Hp Victus 15-fb0103la Ryzen5,8gb,512,rtx 3050 Color Negro">...</a> is not clickable at point (793, 501). Other element would receive the click: <div class="cookie-consent-banner-opt-out__container">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.4', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ecdcb501b6d7a569623e6f8269f59813, clickElement {id=f.CADE7A01B000BB5F1B640F23124E8C76.d.B48CC3856A619DB0C2D15F67FB5B2457.e.140}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/wb/5gps1z_d6cj...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54224}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54224/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (ecdcb501b6d7a569623e6f8269f59813)] -> xpath: //a[@title='Laptop Gamer Hp Victus 15-fb0103la Ryzen5,8gb,512,rtx 3050 Color Negro']]
+Session ID: ecdcb501b6d7a569623e6f8269f59813
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.BasePage.clickElement(BasePage.java:69)
+	at pages.PaginaResultadoBusqueda.clickPc(PaginaResultadoBusqueda.java:12)
+	at steps.MercadoLibreSteps.selectPc(MercadoLibreSteps.java:23)
+	at ✽.Select pc(file:///Users/jdgiraldo/Desktop/QA/AmazonCompra/src/test/resources/AmazonNavegacion.feature:9)
+?[0m
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
